@@ -1,0 +1,704 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-01-20 13:28-0500\n"
+"PO-Revision-Date: 2015-01-20 13:51-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: ../secure_invite.php\n"
+
+#: ../secure_invite.php:56
+msgid "Invitations reports"
+msgstr ""
+
+#: ../secure_invite.php:57 ../secure_invite.php:182 ../secure_invite.php:1684
+msgid "Invite a friend"
+msgstr "邀請朋友"
+
+#: ../secure_invite.php:134
+msgid "View full reports"
+msgstr ""
+
+#: ../secure_invite.php:189 ../secure_invite.php:1695
+msgid "Thanks, your invitation has been sent"
+msgstr ""
+
+#: ../secure_invite.php:193 ../secure_invite.php:1698
+msgid ""
+"Sorry, your invitation could not be sent. Perhaps this email address is "
+"already registered. Please try again."
+msgstr ""
+
+#: ../secure_invite.php:196 ../secure_invite.php:1700
+msgid "You must supply a valid email address. Please try again."
+msgstr ""
+
+#: ../secure_invite.php:281
+msgid "Or enter an invitation code below:"
+msgstr ""
+
+#: ../secure_invite.php:284
+msgid "Register code"
+msgstr ""
+
+#: ../secure_invite.php:286
+msgid "Contact the site administrator if you have any problems."
+msgstr ""
+
+#: ../secure_invite.php:303
+msgid "Invitation required"
+msgstr ""
+
+#: ../secure_invite.php:437
+msgid "Invite friends"
+msgstr "邀請朋友"
+
+#: ../secure_invite.php:441 ../secure_invite.php:443 ../secure_invite.php:446
+msgid "Invites"
+msgstr "邀請"
+
+#: ../secure_invite.php:497 ../secure_invite.php:1327
+msgid "Secure invites admin"
+msgstr ""
+
+#: ../secure_invite.php:499 ../secure_invite.php:964 ../secure_invite.php:1329
+msgid "Settings"
+msgstr "設置"
+
+#: ../secure_invite.php:500 ../secure_invite.php:723 ../secure_invite.php:927
+#: ../secure_invite.php:930 ../secure_invite.php:963 ../secure_invite.php:1330
+msgid "Bulk invite"
+msgstr ""
+
+#: ../secure_invite.php:501 ../secure_invite.php:724 ../secure_invite.php:931
+#: ../secure_invite.php:1331
+msgid "Special users"
+msgstr ""
+
+#: ../secure_invite.php:679
+msgid "The settings have been updated"
+msgstr ""
+
+#: ../secure_invite.php:720
+msgid "Invitation settings"
+msgstr ""
+
+#: ../secure_invite.php:722 ../secure_invite.php:929 ../secure_invite.php:962
+#: ../secure_invite.php:1405
+msgid "Invitation list"
+msgstr "邀請列表"
+
+#: ../secure_invite.php:734
+msgid "Settings presets"
+msgstr ""
+
+#: ../secure_invite.php:739
+msgid ""
+"Anyone can join with or without an invitation, and all users can invite as "
+"many people as they like"
+msgstr ""
+
+#: ../secure_invite.php:742
+msgid ""
+"Signup is just for invited people, and all users can invite as many people "
+"as they like"
+msgstr ""
+
+#: ../secure_invite.php:745
+msgid ""
+"Signup is just for invited people, and all users who have been registered "
+"for 30 days or more can invite as many people as they like"
+msgstr ""
+
+#: ../secure_invite.php:748
+msgid ""
+"Signup is just for invited people, and all users who have been registered "
+"for 30 days or more can invite up to 10 people"
+msgstr ""
+
+#: ../secure_invite.php:751
+msgid ""
+"Signup is just for invited people, and only administrators can invite people"
+msgstr ""
+
+#: ../secure_invite.php:754
+msgid "Use custom settings"
+msgstr ""
+
+#: ../secure_invite.php:756
+msgid "Save this preset"
+msgstr ""
+
+#: ../secure_invite.php:759
+msgid "Custom settings"
+msgstr ""
+
+#: ../secure_invite.php:760
+msgid "Use custom settings for secure invitations here."
+msgstr ""
+
+#: ../secure_invite.php:764
+msgid "Show admin link"
+msgstr ""
+
+#: ../secure_invite.php:768 ../secure_invite.php:787
+msgid "Yes"
+msgstr ""
+
+#: ../secure_invite.php:771 ../secure_invite.php:786
+msgid "No"
+msgstr ""
+
+#: ../secure_invite.php:772
+msgid "Show the invite link in the admin area for normal users"
+msgstr ""
+
+#: ../secure_invite.php:774
+msgid "User settings"
+msgstr ""
+
+#: ../secure_invite.php:776
+msgid "Inviting lockdown (days)"
+msgstr ""
+
+#: ../secure_invite.php:777
+msgid ""
+"A user must have been registered for how many days before they can invite "
+"friends?"
+msgstr ""
+
+#: ../secure_invite.php:779
+msgid "Maximum number of invites per person"
+msgstr ""
+
+#: ../secure_invite.php:780
+msgid "How many invites can each user send (<a href=\""
+msgstr ""
+
+#: ../secure_invite.php:782
+msgid "Security settings"
+msgstr ""
+
+#: ../secure_invite.php:784
+msgid "Open signup"
+msgstr ""
+
+#: ../secure_invite.php:788
+msgid "Allow anyone to sign up? This disables the security on the signup page"
+msgstr ""
+
+#: ../secure_invite.php:790 ../secure_invite.php:797
+msgid "Signup page"
+msgstr ""
+
+#: ../secure_invite.php:792
+msgid ""
+"What is the address of the signup page? (wp-login.php?action=register is the "
+"default). You can put multiple addresses here separated by a comma (,). For "
+"example, when using Buddypress you will want to make this &quot;wp-signup."
+"php,wp-login.php?action=register,/register,wp-register.php&quot;"
+msgstr ""
+
+#: ../secure_invite.php:794
+msgid "Signup settings"
+msgstr ""
+
+#: ../secure_invite.php:796
+msgid ""
+"What address do you want the invitation emails to send people to? Please add "
+"the full URL to the registration page."
+msgstr ""
+
+#: ../secure_invite.php:800
+msgid "Time limit for signups (days)"
+msgstr ""
+
+#: ../secure_invite.php:801
+msgid "How many days would you like an invitation to be open for?"
+msgstr ""
+
+#: ../secure_invite.php:803
+msgid "Invitation codes"
+msgstr ""
+
+#: ../secure_invite.php:804
+msgid ""
+"Allow people to sign up to your site using a special code. The code they "
+"sign up with will be stored so you can see which codes are most effective. "
+"Add one code per line."
+msgstr ""
+
+#: ../secure_invite.php:805
+msgid "Invitation codes (one per line)"
+msgstr ""
+
+#: ../secure_invite.php:808
+msgid "Message settings"
+msgstr ""
+
+#: ../secure_invite.php:810
+msgid ""
+"What message do you want to show if someone tries to sign up without being "
+"invited?"
+msgstr ""
+
+#: ../secure_invite.php:811
+msgid "No invitation message"
+msgstr ""
+
+#: ../secure_invite.php:814
+msgid ""
+"Enter the message you would like to appear below the users personal message "
+"in the invite email. There are four special keywords to enter which are "
+"automatically changed when the email is sent. Use these keywords:"
+msgstr ""
+
+#: ../secure_invite.php:816
+msgid "where you want the name of your site to appear"
+msgstr ""
+
+#: ../secure_invite.php:817
+msgid "where you want the special link to the signup form to appear"
+msgstr ""
+
+#: ../secure_invite.php:818
+msgid "where you want the name of the email sender to appear"
+msgstr ""
+
+#: ../secure_invite.php:819
+msgid "where you want the number of days this invitation is valid to appear"
+msgstr ""
+
+#: ../secure_invite.php:821
+msgid "Default message for invites"
+msgstr ""
+
+#: ../secure_invite.php:827
+msgid "BuddyPress theme settings"
+msgstr ""
+
+#: ../secure_invite.php:828
+msgid ""
+"Where would you like the invitation form to how in your Buddypress site? The "
+"form will be hidden by default, and can be shown by clicking a button."
+msgstr ""
+
+#: ../secure_invite.php:832
+msgid "Before any list of members"
+msgstr ""
+
+#: ../secure_invite.php:835
+msgid "After any list of members"
+msgstr ""
+
+#: ../secure_invite.php:838
+msgid "At the top of every page"
+msgstr ""
+
+#: ../secure_invite.php:841
+msgid "Before your site homepage"
+msgstr ""
+
+#: ../secure_invite.php:844
+msgid "After your site homepage"
+msgstr ""
+
+#: ../secure_invite.php:847
+msgid "At the top of the default sidebar"
+msgstr ""
+
+#: ../secure_invite.php:850
+msgid "At the bottom of the default sidebar"
+msgstr ""
+
+#: ../secure_invite.php:853
+msgid "Don't use automatic BuddyPress integration"
+msgstr ""
+
+#: ../secure_invite.php:859
+msgid "Save these settings"
+msgstr ""
+
+#: ../secure_invite.php:879
+msgid "No email addresses were entered. Please try again."
+msgstr ""
+
+#: ../secure_invite.php:904
+#, php-format
+msgid "%1$s emails were sent."
+msgstr ""
+
+#: ../secure_invite.php:906
+#, php-format
+msgid ""
+"%1$s emails were sent from %2$s entered email addresses. The failed email "
+"addresses are below:"
+msgstr ""
+
+#: ../secure_invite.php:937
+msgid ""
+"Add email addresses, one per line. You can also add names and email "
+"addresses using CSV formatting. Each line should be like this:<br /"
+"><em>Invitee name,invitee@email.com</em>"
+msgstr ""
+
+#: ../secure_invite.php:939
+msgid "Emails"
+msgstr ""
+
+#: ../secure_invite.php:943 ../secure_invite.php:2137
+msgid "Your message"
+msgstr "附上消息"
+
+#: ../secure_invite.php:944 ../secure_invite.php:2138
+#, php-format
+msgid ""
+"I've been blogging at %s and thought you might like to try it out.\n"
+"\n"
+"My blog is at %s"
+msgstr ""
+
+#: ../secure_invite.php:947
+msgid "Send Invitations"
+msgstr "發送邀請"
+
+#: ../secure_invite.php:960
+msgid "User invitation settings"
+msgstr ""
+
+#: ../secure_invite.php:991
+msgid "Choose a user"
+msgstr ""
+
+#: ../secure_invite.php:995 ../secure_invite.php:1134
+msgid "Username"
+msgstr ""
+
+#: ../secure_invite.php:996
+msgid "Nice name"
+msgstr ""
+
+#: ../secure_invite.php:997
+msgid "Display name"
+msgstr ""
+
+#: ../secure_invite.php:998 ../secure_invite.php:2133
+msgid "Email"
+msgstr ""
+
+#: ../secure_invite.php:999 ../secure_invite.php:1143
+#: ../secure_invite.php:1228 ../secure_invite.php:1287
+msgid "Invites sent"
+msgstr ""
+
+#: ../secure_invite.php:1000 ../secure_invite.php:1229
+#: ../secure_invite.php:1288
+msgid "Resulting signups"
+msgstr ""
+
+#: ../secure_invite.php:1024
+msgid "No users found, please try again"
+msgstr ""
+
+#: ../secure_invite.php:1043 ../secure_invite.php:1048
+#: ../secure_invite.php:1098
+msgid "The settings for this user have been saved"
+msgstr ""
+
+#: ../secure_invite.php:1076
+msgid "No users updated. Perhaps you haven't set the limit for any users yet?"
+msgstr ""
+
+#: ../secure_invite.php:1083
+#, php-format
+msgid "%d users updated"
+msgstr ""
+
+#: ../secure_invite.php:1123
+msgid "Remaining invites"
+msgstr ""
+
+#: ../secure_invite.php:1144
+msgid "Invites accepted"
+msgstr ""
+
+#: ../secure_invite.php:1145
+msgid "Acceptance rate"
+msgstr ""
+
+#: ../secure_invite.php:1147
+msgid "Invite points"
+msgstr ""
+
+#: ../secure_invite.php:1160
+msgid "Set invite settings for this user"
+msgstr ""
+
+#: ../secure_invite.php:1163
+msgid "Can invite"
+msgstr ""
+
+#: ../secure_invite.php:1164
+msgid "Can this user send invitations?"
+msgstr ""
+
+#: ../secure_invite.php:1165
+msgid "Invitation limit"
+msgstr ""
+
+#: ../secure_invite.php:1166
+msgid "Number of invitations this user can send (leave blank for unlimited)"
+msgstr ""
+
+#: ../secure_invite.php:1167
+msgid "Reset invitation limit"
+msgstr ""
+
+#: ../secure_invite.php:1168
+msgid "Reset number of invitations this user can send to the global default"
+msgstr ""
+
+#: ../secure_invite.php:1169
+msgid "Save settings for this user"
+msgstr ""
+
+#: ../secure_invite.php:1178 ../secure_invite.php:1182
+#: ../secure_invite.php:1183
+msgid "Search users"
+msgstr ""
+
+#: ../secure_invite.php:1179
+msgid "Search for a user to override their invitation settings."
+msgstr ""
+
+#: ../secure_invite.php:1189
+msgid "Increase invites for every user"
+msgstr ""
+
+#: ../secure_invite.php:1190
+msgid ""
+"Increase the number of invites for each user (only works for users you have "
+"explicitly set a limit for)"
+msgstr ""
+
+#: ../secure_invite.php:1193
+msgid "Increase the number of invites each user can send by:"
+msgstr ""
+
+#: ../secure_invite.php:1194
+msgid "Increase invites"
+msgstr ""
+
+#: ../secure_invite.php:1219 ../secure_invite.php:1224
+msgid "Invitations per month"
+msgstr ""
+
+#: ../secure_invite.php:1227
+msgid "Month"
+msgstr ""
+
+#: ../secure_invite.php:1252 ../secure_invite.php:1311
+msgid "No invitations sent yet"
+msgstr ""
+
+#: ../secure_invite.php:1278 ../secure_invite.php:1283
+msgid "Best inviters by signups"
+msgstr ""
+
+#: ../secure_invite.php:1286 ../secure_invite.php:1535
+#: ../secure_invite.php:2129
+msgid "Name"
+msgstr "名字"
+
+#: ../secure_invite.php:1342
+msgid "The invitation for this email address has been deleted"
+msgstr ""
+
+#: ../secure_invite.php:1344
+msgid "The invitation for this email address could not be deleted"
+msgstr ""
+
+#: ../secure_invite.php:1351
+msgid "The selected invitations have been deleted"
+msgstr ""
+
+#: ../secure_invite.php:1353
+msgid "The selected invitations could not be deleted"
+msgstr ""
+
+#: ../secure_invite.php:1435
+msgid "Invitations sent by site users"
+msgstr ""
+
+#: ../secure_invite.php:1438
+msgid "Inviter"
+msgstr ""
+
+#: ../secure_invite.php:1439
+msgid "Datestamp"
+msgstr ""
+
+#: ../secure_invite.php:1440
+msgid "Invited email"
+msgstr ""
+
+#: ../secure_invite.php:1441
+msgid "Signed up name"
+msgstr ""
+
+#: ../secure_invite.php:1442
+msgid "Delete invitation"
+msgstr ""
+
+#: ../secure_invite.php:1459
+msgid "Delete"
+msgstr ""
+
+#: ../secure_invite.php:1475
+msgid "Delete all checked invitations"
+msgstr ""
+
+#: ../secure_invite.php:1497
+msgid "No invitations sent yet."
+msgstr ""
+
+#: ../secure_invite.php:1527 ../secure_invite.php:1532
+msgid "Best inviters by points"
+msgstr ""
+
+#: ../secure_invite.php:1536
+msgid "Invites Sent"
+msgstr ""
+
+#: ../secure_invite.php:1537
+msgid "Invites Accepted"
+msgstr ""
+
+#: ../secure_invite.php:1538
+msgid "Acceptance Rate"
+msgstr ""
+
+#: ../secure_invite.php:1539
+msgid "Invite Points"
+msgstr ""
+
+#: ../secure_invite.php:1566
+msgid "View top 100 inviters by points"
+msgstr ""
+
+#: ../secure_invite.php:1571
+msgid "No inviters with points yet"
+msgstr ""
+
+#: ../secure_invite.php:1602 ../secure_invite.php:1607
+msgid "Best codes by signups"
+msgstr ""
+
+#: ../secure_invite.php:1610
+msgid "Code"
+msgstr ""
+
+#: ../secure_invite.php:1611
+msgid "Signups"
+msgstr ""
+
+#: ../secure_invite.php:1633
+msgid "No signups using codes yet"
+msgstr ""
+
+#: ../secure_invite.php:1707 ../secure_invite.php:2125
+msgid "Invite a friend to join"
+msgstr "邀請朋友加入"
+
+#: ../secure_invite.php:1710 ../secure_invite.php:1765
+msgid "Name of person to invite"
+msgstr ""
+
+#: ../secure_invite.php:1712 ../secure_invite.php:1767
+msgid "Email of person to invite"
+msgstr ""
+
+#: ../secure_invite.php:1714 ../secure_invite.php:1769
+msgid "A personal message (optional)"
+msgstr ""
+
+#: ../secure_invite.php:1716 ../secure_invite.php:1772
+#: ../secure_invite.php:2141
+msgid "Send Invitation"
+msgstr "發送邀請"
+
+#: ../secure_invite.php:1771
+msgid "Send this invitation"
+msgstr "發送邀請"
+
+#: ../secure_invite.php:1961
+msgid "Number of invites left to send:"
+msgstr ""
+
+#: ../secure_invite.php:1963
+msgid "Unlimited invites"
+msgstr "邀請數量不限"
+
+#: ../secure_invite.php:1965
+msgid "No invites left to send"
+msgstr ""
+
+#: ../secure_invite.php:2111
+msgid "Your invitation has been successfully sent to"
+msgstr ""
+
+#: ../secure_invite.php:2114
+msgid "Your invitation could not be sent to"
+msgstr ""
+
+#: ../secure_invite.php:2114
+msgid ""
+"Perhaps this email address is already registered. Please try again. If it "
+"fails more than twice please contact the site administrator."
+msgstr ""
+
+#: ../secure_invite.php:2119
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: ../secure_invite.php:2169
+msgid "Thank you for donating"
+msgstr ""
+
+#: ../secure_invite.php:2189
+#, php-format
+msgid "To report bugs please visit <a href=\"%s\">%s</a>."
+msgstr ""
+
+#: ../secure_invite.php:2205
+#, php-format
+msgid ""
+"If you found %1$s useful please consider donating to help %2$s to continue "
+"writing free Wordpress plugins."
+msgstr ""
+
+#: ../secure_invite.php:2207
+#, php-format
+msgid "If you found %s useful please consider donating."
+msgstr ""
+
+#: ../secure_invite.php:2214
+msgid "Hide this"
+msgstr ""
+
+#: ../secure_invite.php:2249
+msgid "PayPal: Donate"
+msgstr ""
+
+#: ../secure_invite.php:2253
+#, php-format
+msgid "<a href=\"%s\">Bugs</a>"
+msgstr ""

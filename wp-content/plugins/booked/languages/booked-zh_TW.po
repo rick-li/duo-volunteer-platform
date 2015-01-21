@@ -1,0 +1,1365 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Booked\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-31 16:29-0500\n"
+"PO-Revision-Date: 2015-01-20 13:01-0500\n"
+"Last-Translator: Justin Scheetz <justin@boxystudio.com>\n"
+"Language-Team: Boxy Studio <justin@boxystudio.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-SearchPath-0: /Users/justinscheetz/Dropbox/_Development/plugins/"
+"booked/wp-content/plugins/booked\n"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:138
+msgid "Phone Number"
+msgstr "電話號碼"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:148
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:228
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:30
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:32
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:48
+msgid "Appointments"
+msgstr "預定"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:149
+msgid "Pending"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:150
+msgid "Calendars"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:151
+msgid "Settings"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:166
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:174
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:182
+msgid "You do not have sufficient permissions to access this page."
+msgstr "沒有足夠的權限訪問此頁面"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:212
+#, php-format
+msgid "There is %s pending appointment."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:212
+msgid "View Pending Appointment"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:227
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:291
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/admin-loaders.php:105
+msgid "Phone"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:262
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:53
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:94
+msgid "Upcoming Appointment"
+msgstr "您預定的時間"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:275
+msgid "and"
+msgstr "和"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:275
+msgid "more"
+msgstr "更多"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:344
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:59
+msgid "slot"
+msgstr "空位"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:345
+msgid "slots"
+msgstr "空位"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:346
+msgid "Add"
+msgstr "加"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:347
+msgid "The \"End Time\" needs to be later than the \"Start Time\"."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:348
+msgid "Are you sure you want to add those bulk time slots?"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:349
+msgid "All fields are required."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:350
+msgid "You are about to add the following time slot(s)"
+msgstr "您將預定已下時間"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:351
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:99
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/admin-loaders.php:127
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:141
+msgid "to"
+msgstr "到"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:352
+msgid "Time slot added!"
+msgstr "預定成功！"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:353
+msgid "Please choose a customer."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:354
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:414
+msgid "Please fill out all required fields."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:355
+msgid "Are you sure you want to delete this time slot?"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:356
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:411
+msgid "Are you sure you want to cancel this appointment?"
+msgstr "確定要取消此預定？"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:357
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:415
+msgid "A first name and an email address are required fields."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:358
+msgid "Are you sure you want to approve this appointment?"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:412
+msgid "Please wait..."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:413
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/fe-loaders.php:67
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/fe-loaders.php:128
+msgid "Request Appointment"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/wp-updates-plugin.php:87
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/wp-updates-plugin.php:91
+msgid "An unknown error occurred"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:28
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:102
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/admin-loaders.php:204
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/fe-loaders.php:129
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:145
+msgid "Cancel"
+msgstr "取消"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:28
+msgid "Add ..."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:41
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/admin-loaders.php:30
+msgid "No time slots."
+msgstr "沒有空位了"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:83
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:123
+msgid "Every 1 hour"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:84
+msgid "Every 1 hour, 30 minutes"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:85
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:122
+msgid "Every 2 hours"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:86
+msgid "Every 45 minutes"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:87
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:124
+msgid "Every 30 minutes"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:88
+msgid "Every 20 minutes"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:89
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:125
+msgid "Every 15 minutes"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:90
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:126
+msgid "Every 10 minutes"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:91
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:127
+msgid "Every 5 minutes"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:98
+msgid "5 minutes"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:99
+msgid "10 minutes"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:100
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:189
+msgid "15 minutes"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:101
+msgid "20 minutes"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:102
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:190
+msgid "30 minutes"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:103
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:191
+msgid "45 minutes"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:104
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:151
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:192
+msgid "1 hour"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:110
+msgid "1 time slot"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:111
+msgid "2 time slots"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:112
+msgid "3 time slots"
+msgstr "3個空位"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:113
+msgid "4 time slots"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:114
+msgid "5 time slots"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:115
+msgid "6 time slots"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:116
+msgid "7 time slots"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:117
+msgid "8 time slots"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:118
+msgid "9 time slots"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:119
+msgid "10 time slots"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:120
+msgid "11 time slots"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:121
+msgid "12 time slots"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:122
+msgid "13 time slots"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:123
+msgid "14 time slots"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:124
+msgid "15 time slots"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:125
+msgid "16 time slots"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:126
+msgid "17 time slots"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:127
+msgid "18 time slots"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:128
+msgid "19 time slots"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:129
+msgid "20 time slots"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:211
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:72
+msgid "Back to"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:222
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:229
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:79
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:86
+msgid "Sun"
+msgstr "週日"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:223
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:80
+msgid "Mon"
+msgstr "週一"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:224
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:81
+msgid "Tue"
+msgstr "週二"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:225
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:82
+msgid "Wed"
+msgstr "週三"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:226
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:83
+msgid "Thu"
+msgstr "週四"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:227
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:84
+msgid "Fri"
+msgstr "週五"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:228
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:85
+msgid "Sat"
+msgstr "週六"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:305
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:689
+msgid "appointment"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:339
+msgid "Default Calendar"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:345
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:359
+msgid "Appointments for"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:352
+msgid "for"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:508
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:341
+msgid "time slot"
+msgstr "空位"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:508
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:341
+msgid "available"
+msgstr "剩餘"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:518
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:31
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:33
+msgid "Appointment"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:526
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:560
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:586
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:96
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:136
+msgid "pending"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:528
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/pending-list.php:95
+msgid "(this user no longer exists)"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:530
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:561
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:587
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/pending-list.php:90
+msgid "Approve"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:539
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/admin-loaders.php:157
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:36
+msgid "New Appointment"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:551
+msgid ""
+"There are additional appointments booked from previously available time "
+"slots:"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:577
+msgid ""
+"There are no appointment slots available for this day, however there are "
+"appointments booked from previously available time slots:"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:599
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:353
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:362
+msgid "There are no appointment time slots available for this day."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:599
+msgid "Would you like to add some?"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:260
+msgid "Available Appointments"
+msgstr "可選的時間"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:344
+msgid "Book Appointment"
+msgstr "預定"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:565
+msgid "Choose..."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:689
+msgid "The passwords you entered do not match.  Your password was not updated."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:700
+msgid "The Email you entered is not valid.  please try again."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:702
+msgid "This email is already used by another user.  try a different one."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:724
+msgid "Error uploading avatar."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:729
+msgid "Avatar uploader security check failed."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/general-functions.php:70
+msgid "All fields are required to register."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/general-functions.php:74
+msgid "That username is too short; at least 4 characters is required."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/general-functions.php:78
+msgid "That username already exists."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/general-functions.php:82
+msgid "That username is not valid."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/general-functions.php:86
+msgid "That email address is not valid."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/general-functions.php:90
+msgid "That email is already in use."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/profiles.php:63
+#, php-format
+msgid "%s's Profile"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:60
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:101
+msgid "Today"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:96
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:136
+msgid "approved"
+msgstr "已批准"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:99
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:141
+msgid "from"
+msgstr "從"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:101
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:144
+#, php-format
+msgid "Appointment with %s"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:101
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:144
+msgid "Google Calendar"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:112
+msgid "Please log in to view your upcoming appointments."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:153
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:206
+msgid "Success!"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:153
+msgid "Registration complete, please check your email for login information."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:165
+msgid "First Name"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:169
+msgid "Last Name"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:173
+msgid "Your Email"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:177
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:197
+msgid "Register"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:196
+msgid "Login"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:198
+msgid "Forgot your password?"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:207
+msgid "Check your email to reset your password."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:213
+msgid "Both fields are required to log in."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:214
+msgid "Sorry, those login credentials are incorrect."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:283
+msgid "A username or email address is required to reset your password."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:286
+msgid "Username or Email"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:291
+msgid "Reset my password"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/widgets.php:10
+msgid "Appointment Calendar"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/widgets.php:20
+msgid "Widget Title"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/admin-loaders.php:102
+msgid "Contact Information"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/admin-loaders.php:103
+msgid "Name"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/admin-loaders.php:104
+msgid "Email"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/admin-loaders.php:125
+msgid "Appointment Information"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/admin-loaders.php:126
+msgid "Date"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/admin-loaders.php:127
+msgid "Time"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/admin-loaders.php:166
+msgid "Current Customer"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/admin-loaders.php:169
+msgid "New Customer"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/admin-loaders.php:176
+msgid "Select a customer ..."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/admin-loaders.php:187
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/fe-loaders.php:110
+msgid "First name..."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/admin-loaders.php:188
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/fe-loaders.php:111
+msgid "Last name..."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/admin-loaders.php:191
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/fe-loaders.php:114
+msgid "Email..."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/admin-loaders.php:194
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/fe-loaders.php:117
+msgid "Phone number..."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/admin-loaders.php:203
+msgid "Create Appointment"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/fe-loaders.php:94
+#, php-format
+msgid "You are about to request an appointment for %s."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/fe-loaders.php:94
+msgid ""
+"Please confirm that you would like to request the following appointment:"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/fe-loaders.php:101
+#, php-format
+msgid ""
+"Sorry, but you've hit the appointment limit. Each user may only book %d "
+"appointment at a time."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/fe-loaders.php:131
+msgid "Okay"
+msgstr "好"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:34
+msgid "Add New"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:35
+msgid "Add New Appointment"
+msgstr "增加預定"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:37
+msgid "Edit Appointment"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:38
+msgid "View Appointment"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:39
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/admin-calendar.php:14
+msgid "All Appointments"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:40
+msgid "Search Appointments"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:41
+msgid "Parent Appointments:"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:42
+msgid "No Appointments found."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:43
+msgid "No Appointments found in Trash."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:60
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:75
+msgid "Custom Calendars"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:61
+msgid "Custom Calendar"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:62
+msgid "Search Custom Calendars"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:63
+msgid "Popular Custom Calendars"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:64
+msgid "All Custom Calendars"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:67
+msgid "Edit Custom Calendar"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:68
+msgid "Update Custom Calendar"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:69
+msgid "Add New Custom Calendar"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:70
+msgid "New Custom Calendar Name"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:71
+msgid "Separate custom calendars with commas"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:72
+msgid "Add or remove custom calendars"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:73
+msgid "Choose from the most used custom calendars"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:74
+msgid "No custom calendars found."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/pending-list.php:3
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:13
+msgid "Updating, please wait..."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/pending-list.php:4
+msgid "Pending Appointments"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/pending-list.php:10
+msgid "Appointment Details"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/pending-list.php:11
+msgid "Options"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/pending-list.php:67
+msgid "There are no pending appointments."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:20
+msgid "No profile here!"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:21
+msgid "Sorry, this user profile does not exist."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:46
+msgid "Logout"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:78
+msgid ""
+"Your appointment has been requested! We have also set up an account for you. "
+"Your login information has been sent via email. When logged in, you can view "
+"your upcoming appointments below. Be sure to change your password to "
+"something more memorable by using the Edit Profile section below."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:83
+msgid ""
+"Your appointment has been requested! It will be updated below if approved."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:85
+msgid "Your appointment has been added to our calendar!"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:157
+msgid "Edit Profile"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:163
+msgid "Update Avatar"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:164
+msgid "Choose image ..."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:166
+msgid "Recommended size: 100px by 100px or larger"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:172
+msgid "Display Name"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:176
+msgid "E-mail *"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:180
+msgid "Website"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:186
+msgid "Change Password"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:190
+msgid "Repeat Password"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:195
+msgid "Short Bio"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:204
+msgid "Update"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:15
+msgid "Appointment Settings"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:22
+msgid "General Settings"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:23
+msgid "User Emails"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:24
+msgid "Admin Emails"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:25
+msgid "Custom Fields"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:26
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:856
+msgid "Default Time Slots"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:27
+msgid "Shortcodes"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:28
+msgid "Custom Time Slots"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:81
+msgid "Profile Page"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:83
+msgid ""
+"Create a page that includes the <strong>[booked-login]</strong> shortcode "
+"for your profile template then choose it from this dropdown."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:84
+msgid ""
+"Or instead of this page, you can use the <strong>[booked-profile]</strong> "
+"shortcode to display the Profile content anywhere."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:98
+msgid "Choose a page to use for profile page..."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:114
+msgid "Time Slot Intervals"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:116
+msgid ""
+"Choose the intervals you need for your appointment time slots. This will "
+"only affect the way default time slots are entered."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:142
+msgid "Appointment Buffer"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:144
+msgid ""
+"To prevent appointments from getting booked too close to the current date "
+"and/or time, you can set an appointment buffer. Available appointments time "
+"slots will be pushed up to a new date and time depending on which buffer "
+"amount you choose below."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:150
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:188
+msgid "No buffer"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:152
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:193
+msgid "2 hours"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:153
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:194
+msgid "3 hours"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:154
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:195
+msgid "4 hours"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:155
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:196
+msgid "5 hours"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:156
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:197
+msgid "6 hours"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:157
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:198
+msgid "12 hours"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:158
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:199
+msgid "24 hours"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:159
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:200
+msgid "2 days"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:160
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:201
+msgid "3 days"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:161
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:202
+msgid "5 days"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:162
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:203
+msgid "6 days"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:163
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:204
+msgid "1 week"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:164
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:205
+msgid "2 weeks"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:165
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:206
+msgid "4 weeks"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:180
+msgid "Cancellation Buffer"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:182
+msgid ""
+"To prevent appointments from getting cancelled too close to the appointment "
+"time, you can set a cancellation buffer."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:221
+msgid "Appointment Limit"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:223
+msgid ""
+"To prevent users from booking too many appointments, you can set an "
+"appointment limit."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:229
+msgid "No limit"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:230
+msgid "1 appointment"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:231
+msgid "2 appointments"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:232
+msgid "3 appointments"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:233
+msgid "4 appointments"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:234
+msgid "5 appointments"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:235
+msgid "6 appointments"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:236
+msgid "7 appointments"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:237
+msgid "8 appointments"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:238
+msgid "9 appointments"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:239
+msgid "10 appointments"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:240
+msgid "15 appointments"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:241
+msgid "20 appointments"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:242
+msgid "25 appointments"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:243
+msgid "50 appointments"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:258
+msgid "New Appointment Default"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:260
+msgid ""
+"Would you like your appointment requests to go into a pending list or should "
+"they be approved immediately?"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:266
+msgid "Set as Pending"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:267
+msgid "Approve Immediately"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:282
+msgid "Front-End Color Settings"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:332
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:510
+msgid ""
+"If you do not want to send email notifications for any or all of the "
+"following actions, you can just delete the text and an email will not be "
+"sent."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:341
+msgid "Email Content - Logo Image"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:344
+msgid ""
+"Choose an image for your custom emails. Keep it 600px or less for best "
+"results."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:368
+msgid "Email Content - Registration"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:371
+msgid ""
+"The email content that is sent to the user upon registration (using the "
+"Booked registration form). Some tokens you can use:"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:373
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:409
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:446
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:483
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:534
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:569
+msgid "To display the person's name."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:374
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:570
+msgid "To display the username for login."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:375
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:571
+msgid "To display the password for login."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:404
+msgid "Email Content - Appointment Confirmation"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:407
+msgid ""
+"The email content that is sent to the user upon appointment creation. Some "
+"tokens you can use:"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:410
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:447
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:484
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:535
+msgid "To display the appointment date."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:411
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:448
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:485
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:536
+msgid "To display the appointment time."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:412
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:449
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:486
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:537
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:572
+msgid "To display all custom field values associated with this appointment."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:441
+msgid "Email Content - Appointment Approval"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:444
+msgid ""
+"The email content that is sent to the user upon appointment approval. Some "
+"tokens you can use:"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:478
+msgid "Email Content - Appointment Cancellation"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:481
+msgid ""
+"The email content that is sent to the user upon appointment cancellation. "
+"Some tokens you can use:"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:529
+msgid "New Appointment Request"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:532
+msgid ""
+"The email content that is sent (to the selected admin users above) upon "
+"appointment request. Some tokens you can use:"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:564
+msgid "Appointment Cancellation"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:567
+msgid ""
+"The email content that is sent (to the selected admin users above) upon "
+"cancellation. Some tokens you can use:"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:643
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:744
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:797
+msgid "Checkbox"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:650
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:751
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:805
+msgid "Radio Button"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:657
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:758
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:813
+msgid "Option"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:680
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:770
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:781
+msgid "Single Line Text"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:681
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:692
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:703
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:715
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:727
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:782
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:788
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:794
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:802
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:810
+msgid "Required Field"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:691
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:771
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:787
+msgid "Paragraph Text"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:702
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:772
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:793
+msgid "Checkboxes"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:714
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:773
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:801
+msgid "Radio Buttons"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:726
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:774
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:809
+msgid "Drop Down"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:838
+msgid "Save Custom Fields"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:880
+msgid "Single"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:881
+msgid "Bulk"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:884
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:889
+msgid "Start time ..."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:885
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:890
+msgid "End time ..."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:891
+msgid "Time between ..."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:892
+msgid "Appt Length ..."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:893
+msgid "# of Each ..."
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:904
+msgid "Display the Default Calendar"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:917
+msgid "Display a Custom Calendar"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:935
+msgid "Display the Login / Register Form"
+msgstr ""
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/settings.php:943
+msgid "Display Appointments List"
+msgstr ""

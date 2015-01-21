@@ -1,0 +1,43 @@
+
+
+/* Light Color */
+#booked-profile-page input[type=submit].button-primary:hover,
+table.booked-calendar input[type=submit].button-primary:hover,
+.booked-modal input[type=submit].button-primary:hover,
+table.booked-calendar thead,
+table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,
+#booked-profile-page .booked-profile-appt-list .appt-block .google-cal-button,
+#booked-profile-page .booked-profile-header
+{ background:{light_color}; }
+
+#booked-profile-page input[type=submit].button-primary:hover,
+table.booked-calendar input[type=submit].button-primary:hover,
+.booked-modal input[type=submit].button-primary:hover,
+table.booked-calendar th,
+table.booked-calendar .booked-appt-list .timeslot .timeslot-people button:hover,
+#booked-profile-page .booked-profile-appt-list .appt-block .google-cal-button,
+#booked-profile-page .booked-profile-header
+{ border-color:{light_color}; }
+
+
+/* Dark Color */
+table.booked-calendar tr.days
+{ background:{dark_color}; }
+
+table.booked-calendar tr.days th
+{ border-color:{dark_color}; }
+
+
+/* Primary Button Color */
+#booked-profile-page input[type=submit].button-primary,
+table.booked-calendar input[type=submit].button-primary,
+.booked-modal input[type=submit].button-primary,
+table.booked-calendar .booked-appt-list .timeslot .timeslot-people button,
+#booked-profile-page .booked-profile-appt-list .appt-block.approved .status-block
+{ background:{primary_button_color}; }
+
+#booked-profile-page input[type=submit].button-primary,
+table.booked-calendar input[type=submit].button-primary,
+.booked-modal input[type=submit].button-primary,
+table.booked-calendar .booked-appt-list .timeslot .timeslot-people button
+{ border-color:{primary_button_color}; }
