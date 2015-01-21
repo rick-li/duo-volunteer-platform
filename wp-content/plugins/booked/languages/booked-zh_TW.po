@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Booked\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-31 16:29-0500\n"
-"PO-Revision-Date: 2015-01-20 13:01-0500\n"
+"PO-Revision-Date: 2015-01-21 17:21-0500\n"
 "Last-Translator: Justin Scheetz <justin@boxystudio.com>\n"
 "Language-Team: Boxy Studio <justin@boxystudio.com>\n"
 "Language: en_US\n"
@@ -28,7 +28,7 @@ msgstr "電話號碼"
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:32
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/post-types/booked_appointments.php:48
 msgid "Appointments"
-msgstr "預定"
+msgstr "預定設置"
 
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:149
 msgid "Pending"
@@ -36,11 +36,11 @@ msgstr ""
 
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:150
 msgid "Calendars"
-msgstr ""
+msgstr "時刻表"
 
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:151
 msgid "Settings"
-msgstr ""
+msgstr "設置"
 
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:166
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:174
@@ -67,6 +67,10 @@ msgstr ""
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:53
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:94
 msgid "Upcoming Appointment"
+msgstr "您預定的時間"
+
+#: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:54
+msgid "Upcoming Appointments"
 msgstr "您預定的時間"
 
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:275
@@ -146,13 +150,13 @@ msgstr ""
 
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:412
 msgid "Please wait..."
-msgstr ""
+msgstr "稍等"
 
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:413
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/fe-loaders.php:67
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/fe-loaders.php:128
 msgid "Request Appointment"
-msgstr ""
+msgstr "申請預定"
 
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/wp-updates-plugin.php:87
 msgid ""
@@ -339,7 +343,7 @@ msgstr ""
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:211
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/functions.php:72
 msgid "Back to"
-msgstr ""
+msgstr "回到"
 
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:222
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/admin-functions.php:229
@@ -549,7 +553,7 @@ msgstr ""
 
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:112
 msgid "Please log in to view your upcoming appointments."
-msgstr ""
+msgstr "需要登陸才"
 
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:153
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:206
@@ -680,12 +684,12 @@ msgstr ""
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/fe-loaders.php:94
 #, php-format
 msgid "You are about to request an appointment for %s."
-msgstr ""
+msgstr "您(%s)即將預定以下時間"
 
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/fe-loaders.php:94
 msgid ""
 "Please confirm that you would like to request the following appointment:"
-msgstr ""
+msgstr "請確認"
 
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/ajax/fe-loaders.php:101
 #, php-format

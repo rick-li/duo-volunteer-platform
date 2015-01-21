@@ -348,7 +348,7 @@ function booked_fe_calendar_date_content($date,$calendar_id = false){
 						echo '<span class="timeslot-time"><i class="fa fa-clock-o"></i>&nbsp;&nbsp;'.date_i18n($time_format,strtotime($timeslot_parts[0])).' &ndash; '.date_i18n($time_format,strtotime($timeslot_parts[1])).'</span>';
 						echo '<span class="timeslot-count">';
 							
-							echo '<span class="spots-available'.($spots_available == 0 ? ' empty' : '').'">'.$spots_available.' '._n('time slot','time slots',$spots_available,'booked').' '.__('available','booked').'</span>';
+							echo '<span class="spots-available'.($spots_available == 0 ? ' empty' : '').'">'.$spots_available.' '._n('time slot', __('time slot', 'booked'),$spots_available,'booked').' '.__('available','booked').'</span>';
 							
 							
 							$spots_users = array();

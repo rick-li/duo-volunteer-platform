@@ -51,7 +51,8 @@ function booked_appointments_shortcode($atts, $content = null) {
 		
 		echo '<div id="booked-profile-page" class="booked-shortcode"><div class="booked-profile-appt-list">';
 				
-			echo '<h4><i class="fa fa-calendar"></i>&nbsp;&nbsp;<span class="count">' . number_format($total_appts) . '</span> ' . _n('Upcoming Appointment','Upcoming Appointments',$total_appts,'booked') . '</h4>';
+			echo '<h4><i class="fa fa-calendar"></i>&nbsp;&nbsp;<span class="count">' . number_format($total_appts) . '</span> ' . _n('Upcoming Appointment',__('Upcoming Appointments', 'booked'),$total_appts,'booked') . '</h4>';
+		
 			
 			foreach($appointments_array as $appt):
 				// echo join(' === ', $appt);

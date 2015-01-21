@@ -151,8 +151,6 @@ if(!class_exists('booked_plugin')) {
 			add_submenu_page('booked-appointments', __('Pending','booked'), __('Pending','booked'), 'manage_options', 'booked-pending', array(&$this, 'admin_pending_list'));
 			add_submenu_page('booked-appointments', __('Calendars','booked'), __('Calendars','booked'), 'manage_options', 'edit-tags.php?taxonomy=booked_custom_calendars');
 			add_submenu_page('booked-appointments', __('Settings','booked'), __('Settings','booked'), 'manage_options', 'booked-settings', array(&$this, 'plugin_settings_page'));
-
-			add_submenu_page('booked-appointments', __('Test','booked'), __('Test','booked'), 'manage_options', 'booked-settings', array(&$this, 'plugin_settings_page'));
 		}
 		
 		// Move Taxonomy (custom calendars) to Appointments Menu

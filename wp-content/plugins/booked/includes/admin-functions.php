@@ -187,7 +187,6 @@ function booked_admin_calendar($year = false,$month = false,$calendar_id = false
 			$appointments_array[$day][$post->ID]['status'] = $post->post_status;
 		endwhile;
 	endif;
-	echo 'asdfadf'.implode($appointments_array);
 	// Appointments Array
 	// [DAY] => [POST_ID] => [TIMESTAMP/STATUS]
 	
