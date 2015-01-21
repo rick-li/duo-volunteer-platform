@@ -379,7 +379,7 @@ if(!class_exists('booked_plugin')) {
 		}
 
 		public static function front_end_styles() {
-			// wp_enqueue_style('booked-gf', 'http://fonts.googleapis.com/css?family=Open+Sans:600,400|Montserrat&subset=latin,cyrillic-ext,greek-ext,vietnamese,greek,latin-ext,cyrillic', array(), '1.0');	
+			wp_enqueue_style('booked-gf', 'http://fonts.googleapis.com/css?family=Open+Sans:600,400|Montserrat&subset=latin,cyrillic-ext,greek-ext,vietnamese,greek,latin-ext,cyrillic', array(), '1.0');	
 			wp_enqueue_style('booked-fontawesome', BOOKED_PLUGIN_URL . '/css/font-awesome.min.css', array(), '1.0');
 			wp_enqueue_style('booked-animations', BOOKED_PLUGIN_URL . '/css/animations.css', array(), '1.0.0');
 			wp_enqueue_style('booked-styles', BOOKED_PLUGIN_URL . '/css/styles.css', array(), '1.0.0');
