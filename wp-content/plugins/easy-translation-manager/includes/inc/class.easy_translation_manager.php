@@ -1221,11 +1221,16 @@ class easy_translation_manager_plugin {
 		if (!empty($_SERVER["HTTPS"]) && $_SERVER["HTTPS"] == "on") {$pageURL .= "s";}
 		
 		$pageURL .= "://";
-			
+		$server_name = $_SERVER["SERVER_NAME"];
+    error_log('==addr '.$_SERVER["SERVER_ADDR"]);
+    if($server_name == 'localhost' && isset($_SERVER["SERVER_ADDR"]) && $_SERVER["SERVER_ADDR"] != null && $_SERVER["SERVER_ADDR"] != '::1'){
+      $server_name = $_SERVER["SERVER_ADDR"];
+    }
 		if (!empty($_SERVER["SERVER_PORT"]) && $_SERVER["SERVER_PORT"] != "80") {
-			$pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
+      //SERVER_NAME == localhost 
+			$pageURL .= $server_name.":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
 		} else {
-			$pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
+			$pageURL .= $server_name.$_SERVER["REQUEST_URI"];
 		}
 		
 		return $pageURL;

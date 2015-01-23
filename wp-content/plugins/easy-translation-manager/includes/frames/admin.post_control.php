@@ -49,7 +49,7 @@ if(!empty($_REQUEST['status']) && $_REQUEST['status']=='save'){
 	$content = '';   
     $sqldatalang = etm_languages_flags($_REQUEST['tmp_lang']);
     
-    $langed_string = '<img style="float: left;padding-left: 10px;padding-top: 4px;" src="'.etm_tools_create_icons_url($sqldatalang['icon'],2).'" ><div style="float: left; padding-left: 10px; padding-top: 3px;"><h2 style="padding-top:0px">Translate to '.$sqldatalang['org_name'] . ' ('. $sqldatalang['english_name'] . ')</h2></div>';
+    $langed_string = '<img width="70px" style="float: left;padding-left: 10px;padding-top: 4px;" src="'.etm_tools_create_icons_url($sqldatalang['icon'],2).'" ><div style="float: left; padding-left: 10px; padding-top: 3px;"><h2 style="padding-top:0px">Translate to '.$sqldatalang['org_name'] . ' ('. $sqldatalang['english_name'] . ')</h2></div>';
 
     $translations_header = get_post_meta($_REQUEST['tmp_id'], 'ect_tran_title_'.$_REQUEST['tmp_lang'], true);   
     $translations_body = get_post_meta($_REQUEST['tmp_id'], 'ect_tran_content_'.$_REQUEST['tmp_lang'], true); 
@@ -97,7 +97,7 @@ if(!empty($_REQUEST['status']) && $_REQUEST['status']=='save'){
     	$button2 = '<input style="float:right;margin-left: 5px;" type="submit" onClick="etm_switch_seo(\'#etm_table_2\',\'#etm_table_1\')" value="Back" class="button-primary">';
     	
     	
-    	$Header2 = '<img style="float: left;padding-left: 10px;padding-top: 4px;" src="'.etm_tools_create_icons_url($sqldatalang['icon'],2).'" ><div style="float: left; padding-left: 10px; padding-top: 3px;"><h2 style="padding-top:0px">SEO to '.$sqldatalang['org_name'] . ' ('. $sqldatalang['english_name'] . ')</h2></div>';
+    	$Header2 = '<img width="70px" style="float: left;padding-left: 10px;padding-top: 4px;" src="'.etm_tools_create_icons_url($sqldatalang['icon'],2).'" ><div style="float: left; padding-left: 10px; padding-top: 3px;"><h2 style="padding-top:0px">SEO to '.$sqldatalang['org_name'] . ' ('. $sqldatalang['english_name'] . ')</h2></div>';
     };
     
 		$_yoast_wpseo_focuskw = get_post_meta($_REQUEST['tmp_id'], '_yoast_wpseo_focuskw', true);
@@ -118,7 +118,7 @@ if(!empty($_REQUEST['status']) && $_REQUEST['status']=='save'){
     	$button3 = '<input style="float:right;margin-left: 5px;" type="submit" onClick="etm_switch_seo(\'#etm_table_3\',\'#etm_table_1\')" value="Back" class="button-primary">';
     	
     	
-    	$Header3 = '<img style="float: left;padding-left: 10px;padding-top: 4px;" src="'.etm_tools_create_icons_url($sqldatalang['icon'],2).'" ><div style="float: left; padding-left: 10px; padding-top: 3px;"><h2 style="padding-top:0px">Extra to '.$sqldatalang['org_name'] . ' ('. $sqldatalang['english_name'] . ')</h2></div>';
+    	$Header3 = '<img width="70px" style="float: left;padding-left: 10px;padding-top: 4px;" src="'.etm_tools_create_icons_url($sqldatalang['icon'],2).'" ><div style="float: left; padding-left: 10px; padding-top: 3px;"><h2 style="padding-top:0px">Extra to '.$sqldatalang['org_name'] . ' ('. $sqldatalang['english_name'] . ')</h2></div>';
 
     
 		$post_default_content_excerpts = $post_data->post_excerpt;
