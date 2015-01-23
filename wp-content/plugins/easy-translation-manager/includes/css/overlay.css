@@ -1,0 +1,35 @@
+.etmoverlay_all {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index:99998;
+}
+
+.etmoverlay_all.addborder {
+	padding: 10px;
+}
+
+
+.etmoverlay_topleft {
+    border-radius: 0 0 10px 10px;
+}
+
+.etmoverlay_topright {
+    border-radius: 0 0 10px 10px;
+}
+
+.etmoverlay_sidetopleft,.etmoverlay_sidebottomleft {
+	border-radius : 0 10px 10px 0;
+}
+
+.etmoverlay_sidetopright,.etmoverlay_sidebottomright {
+	border-radius: 10px 0 0 10px;
+}
+
+.etmoverlay_bottomleft {
+    border-radius: 10px 10px 0 0;
+}
+
+.etmoverlay_bottomright {
+    border-radius: 10px 10px 0 0;
+}

@@ -1,0 +1,145 @@
+.etm_menu div.cs-skin-circular {
+	background: transparent;
+	font-size: 1em;
+	font-weight: 700;
+	width: auto;
+}
+
+.etm_menu .cs-skin-circular > span {
+	background: transparent;
+	text-align: center;
+	padding: 0;
+	text-indent: 100%;
+	border-radius: 50%;
+	-webkit-transition: -webkit-transform 0.2s ease-out;
+	transition: transform 0.2s ease-out;
+}
+
+
+.etm_menu.size0 .cs-skin-circular > span{
+	width: 16px;
+	height: 16px;	
+}
+
+.etm_menu.size1 .cs-skin-circular > span {
+	width: 24px;
+	height: 24px;
+}
+
+.etm_menu.size2 .cs-skin-circular > span {
+	width: 32px;
+	height: 32px;
+}
+
+.etm_menu.size3 .cs-skin-circular > span {
+	width: 48px;
+	height: 48px;
+}
+
+
+.etm_menu .cs-skin-circular .cs-placeholder {
+	-webkit-transition: margin 0.5s;
+	transition: margin 0.5s;
+    background-position: center center !important;
+    background-size: cover !important;
+}
+
+
+.etm_menu .cs-skin-circular .cs-placeholder:after {
+    content: "" !important;
+}
+
+@media screen and (max-width: 30em) {
+	.etm_menu .cs-skin-circular > span { width: 80px; height: 80px; }
+}
+
+.etm_menu .cs-skin-circular > span::after {
+	right: 0;
+	width: 100%;
+	text-indent: 0;
+}
+
+.etm_menu .cs-skin-circular.cs-active > span {
+	-webkit-transform: scale3d(0.75,0.75,1);
+	transform: scale3d(0.75,0.75,1);
+}
+
+.etm_menu .cs-skin-circular.cs-active > span::after {
+	-webkit-transform: translate3d(0,-50%,0);
+	transform: translate3d(0,-50%,0);
+	content: "";
+}
+
+.etm_menu .cs-skin-circular > span[style]::after {
+	content:'';
+}
+
+.etm_menu .cs-skin-circular .cs-selected span::after {
+	content: '';
+}
+
+.etm_menu .cs-skin-circular.cs-active > span {
+
+}
+
+.etm_menu .cs-skin-circular .cs-options {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	color: #415c71;
+	background: transparent;
+	overflow: visible;
+	font-size: 50%;
+	opacity: 0;
+	pointer-events: none;
+	-webkit-transition: opacity 0.3s, visibility 0s 0.3s;
+	transition: opacity 0.3s, visibility 0s 0.3s;
+}
+
+.etm_menu .cs-skin-circular.cs-active .cs-options {
+	opacity: 1;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.etm_menu .cs-skin-circular .cs-options ul,
+.etm_menu .cs-skin-circular .cs-options li  {
+	position: absolute;
+}
+
+.etm_menu .cs-skin-circular .cs-options li {
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	border-radius: 50%;
+	opacity: 0;
+	cursor: pointer;
+	pointer-events: auto;
+    background-position: center center !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: All 0.3s;
+	transition: All 0.3s;
+	-webkit-transform: scale3d(0,0,0) rotate(0deg) translate3d(0, 0, 0);
+	transform:scale3d(0,0,0) rotate(0deg) translate3d(0, 0, 0);
+}
+
+.etm_menu .cs-skin-circular.cs-active .cs-options li {
+	opacity: 1;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.etm_menu .cs-skin-circular.cs-active .cs-options li:hover {
+	opacity: 0.7;
+}
+
+.etm_menu .cs-skin-circular .cs-options li span {
+	display: none;
+}
+
+.etm_menu .cs-skin-circular .cs-options li.cs-focus {
+	background-color: transparent;
+	opacity: 0.7;
+}

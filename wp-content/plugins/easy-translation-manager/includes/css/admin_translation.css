@@ -1,0 +1,73 @@
+#poststuff {
+	width:360px;
+}
+
+.wp-media-buttons {
+	margin-top: -5px;
+}
+
+#payee-details, #payee-payments {
+	margin:5px 0 5px 0;
+}
+        
+.etm_middle_align_objects {
+	position: relative;
+	top: 295px;
+	line-height: 1px;
+}     
+       
+.rtl {
+    text-align: right;
+}
+
+.ltr {
+    text-align: left;
+}      
+       
+            
+.show_content_box {
+	position: absolute;
+	background-image: url('../images/bg_one_pixle.png');
+	height: 100%;
+	display:none;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10000;
+}
+
+.show_content_box_border{
+	text-align: center;
+	background-color: white;
+	display:none;
+	float: left;
+	height: 600px;
+	left: 50%;
+	margin-left: -300px;
+	margin-top: -300px;
+	padding: 10px;
+	position: fixed;
+	top: 50%;
+	width: 600px;
+	border-color: gray;
+	border-style: solid;
+	border-width: 1px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	behavior:url(border-radius.htc);
+}
+        
+.mall_index_elements{
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 10px;
+}
+
+.wp-media-buttons {
+	float:left;
+	line-height: 1;
+    padding: 9px 0 0;
+
+}

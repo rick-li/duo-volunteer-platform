@@ -1,0 +1,237 @@
+.etm_menu div.cs-skin-boxes {
+	background: transparent;
+	max-width: 500px;
+	color: black;
+}
+
+@media screen and (max-width: 767px) {
+	.etm_menu div.cs-skin-boxes { font-size: 1em; }
+}
+
+.etm_menu:not(.rtl) .cs-skin-boxes > span::after,
+.etm_menu:not(.rtl) .cs-skin-boxes.cs-active > span::after {
+	-webkit-transform: translate3d(0,-50%,0);
+	transform: translate3d(0,-50%,0);
+}
+
+.etm_menu.rtl .cs-skin-boxes > span::after,
+.etm_menu.rtl .cs-skin-boxes.cs-active > span::after {
+	-webkit-transform: translate3d(0,-50%,0);
+	transform: translate3d(0,-50%,0);
+}
+
+.etm_menu .cs-select.cs-skin-boxes li {
+	margin:5px;
+}
+
+.etm_menu .cs-select.cs-skin-boxes li {
+	margin:5px;
+}
+
+.etm_menu.menu_display1 .cs-skin-boxes .cs-placeholder {
+	text-indent:-9999px;	
+}
+
+
+.etm_menu .cs-skin-boxes .cs-options {
+	position: fixed !important;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow: visible;
+	background: rgba(0, 0, 0, 0.6);
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, visibility 0s 0.3s;
+	transition: opacity 0.3s, visibility 0s 0.3s;
+	-webkit-transform: translateZ(0);
+}
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options {
+	opacity: 1;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.etm_menu .cs-skin-boxes .cs-options ul {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.etm_menu .cs-skin-boxes .cs-options li {
+	width: 20%;
+	height: 25%;
+	float: left;
+	position: relative;
+	cursor: pointer;
+	border-radius: 30px;
+	overflow: hidden;
+	opacity: 0;
+	background-clip: padding-box;
+	-webkit-transform: scale3d(0.8,0.8,1);
+	transform: scale3d(0.8,0.8,1);
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	background-size: cover;
+	background-position: 0;
+	text-transform: none;
+}
+
+@media screen and (max-width: 767px) {
+	.etm_menu .cs-skin-boxes .cs-options li { box-shadow: none; border-width: 3px; border-radius: 8px;}
+}
+
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options li {
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options li:hover {
+	opacity: 0.7;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+
+
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options li:nth-child(2) {
+	-webkit-transition-delay: 0.01s;
+	transition-delay: 0.01s;
+}
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options li:nth-child(3) {
+	-webkit-transition-delay: 0.02s;
+	transition-delay: 0.02s;
+}
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options li:nth-child(4) {
+	-webkit-transition-delay: 0.03s;
+	transition-delay: 0.03s;
+}
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options li:nth-child(5) {
+	-webkit-transition-delay: 0.04s;
+	transition-delay: 0.04s;
+}
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options li:nth-child(6) {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options li:nth-child(7) {
+	-webkit-transition-delay: 0.06s;
+	transition-delay: 0.06s;
+}
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options li:nth-child(8) {
+	-webkit-transition-delay: 0.07s;
+	transition-delay: 0.07s;
+}
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options li:nth-child(9) {
+	-webkit-transition-delay: 0.08s;
+	transition-delay: 0.08s;
+}
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options li:nth-child(10) {
+	-webkit-transition-delay: 0.09s;
+	transition-delay: 0.09s;
+}
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options li:nth-child(11) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options li:nth-child(12) {
+	-webkit-transition-delay: 0.11s;
+	transition-delay: 0.11s;
+}
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options li:nth-child(13) {
+	-webkit-transition-delay: 0.12s;
+	transition-delay: 0.12s;
+}
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options li:nth-child(14) {
+	-webkit-transition-delay: 0.13s;
+	transition-delay: 0.13s;
+}
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options li:nth-child(15) {
+	-webkit-transition-delay: 0.14s;
+	transition-delay: 0.14s;
+}
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options li:nth-child(16) {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options li:nth-child(17) {
+	-webkit-transition-delay: 0.16s;
+	transition-delay: 0.16s;
+}
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options li:nth-child(18) {
+	-webkit-transition-delay: 0.17s;
+	transition-delay: 0.17s;
+}
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options li:nth-child(19) {
+	-webkit-transition-delay: 0.18s;
+	transition-delay: 0.18s;
+}
+
+.etm_menu .cs-skin-boxes.cs-active .cs-options li:nth-child(20) {
+	-webkit-transition-delay: 0.19s;
+	transition-delay: 0.19s;
+}
+
+.etm_menu .cs-skin-boxes .cs-options li.cs-selected::after {
+	font-family: 'icomoon';
+	content: '\e00d';
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate3d(-50%,-50%,0) translate3d(0,-1em,0);
+	transform: translate3d(-50%,-50%,0) translate3d(0,-1em,0);
+}
+
+.etm_menu .cs-skin-boxes .cs-options li.cs-selected span::after {
+	content: '';
+}
+
+@media screen and (max-width: 767px) {
+	.etm_menu .cs-skin-boxes .cs-options li.cs-selected::after { 
+		-webkit-transform: translate3d(-50%,-50%,0);
+		transform: translate3d(-50%,-50%,0);
+	}
+}
+
+.etm_menu .cs-skin-boxes .cs-options span {
+    background-color: rgba(255, 255, 255, 1);
+    bottom: 0;
+    left: 0;
+    padding: 10px 20px;
+    position: absolute !important;
+    right: 1px;
+    text-align: center !important;
+}
+
+@media screen and (max-width: 767px) {
+	.etm_menu .cs-skin-boxes .cs-options span { display: none !important; }
+}
+
+.etm_menu .cs-skin-boxes .cs-options li span:hover,
+.etm_menu .cs-skin-boxes li.cs-focus span,
+.etm_menu .cs-skin-boxes li.cs-selected span {
+	color: #333;
+}

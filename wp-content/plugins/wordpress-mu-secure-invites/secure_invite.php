@@ -2058,11 +2058,11 @@ function secure_invite_send()
 			if ($query)
 			{
 				if(!empty($pname)) {
-					$subject = $pname.', '.$usernickname.'  has invited you to join '.$site_name;
+					$subject = $pname.', '.$usernickname.'  '.__('has invited you to join', 'secure_invite').$site_name;
 					$message = "Dear ".$pname.", ";
 				}
 				else {
-					$subject = 'Hi there, '. $usernickname.'  has invited you to join '.$site_name;
+					$subject = 'Hi there, '. $usernickname.'  '.__('has invited you to join', 'secure_invite').$site_name;
 					$message = "Hi there, ";
 				}
 				

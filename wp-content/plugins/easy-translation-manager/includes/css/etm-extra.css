@@ -1,0 +1,161 @@
+.etm_menu_old.aligncenter,
+.etm_menu.aligncenter {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.pt-type-select {
+	display:block;
+	float:left;
+	min-width: 195px;
+}
+
+#select-design-listing .pt-type-select , #Generalte-settings .pt-type-select{
+	display:block;
+	float:left;
+	min-width: 135px;
+}
+
+#controle-listing .option-content .pt-option-select  {
+	padding-bottom:10px;
+}
+
+.submit_etm_first {
+	margin-top: 20px !important;
+}
+
+
+input.button-primary, button.button-primary, a.button-primary {
+    background: url("../images/button-grad.png") repeat-x scroll left top #21759B;
+    border-color: #298CBA;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 30px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.hide_group, .hide_plugins_group {
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+
+#Generalte-settings .pop-fileuploader {
+    width: 135px !important;
+}
+#Generalte-settings .loading {
+    background-image: url("../images/loader.gif") !important;
+    background-repeat: no-repeat !important;
+    background-position: bottom !important;
+}
+
+#Generalte-settings .pop-fileuploader-msg {
+    min-height: 16px !important;
+    min-width: 16px !important;
+    padding-top:8px !important;
+}
+
+
+#Generalte-settings .pop-uploader-preview-holder {
+    display: none !important;
+}
+
+
+#Generalte-settings .pop-input-fileuploader {
+    width: 340px !important;
+}
+
+#Generalte-settings .pop-fileuploader {
+    width: 340px; 
+}
+
+#manage-view-listing .pt-type-yesno {
+    float: left;
+    min-width: 120px;
+    padding-right: 12px;
+} 
+
+#select-design-listing .pt-type-yesno {
+    float: left;
+    min-width: 175px;
+    padding-right: 12px;
+} 
+
+#Generalte-settings .pt-type-yesno {
+    float: left;
+    min-width: 175px;
+    padding-right: 12px;
+} 
+
+#manage-view-listing .hide_group div:first-child {
+	padding-bottom: 10px;
+} 
+
+/* Admin: Language radio buttons */
+.pt-option.pt-option-radio .pt-label.pt-type-radio {
+    float: none;
+}
+
+.pop-layout-horizontal .pt-option-checkbox  {
+    padding-bottom: 10px;
+    width: auto;
+    max-width: 340px;
+}
+.pop-layout-horizontal .pt-option-subtitle  {
+    width: auto;
+    max-width: 340px;
+}
+
+#pop-options-cont .pt-option.pt-option-onoff {
+    max-width: 340px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.flags_order_holder {
+	width:350px;
+}
+.domain_list_holder {
+	max-width:400px;
+}
+
+
+
+.domain_list_holder .flags_order_item {
+	display: inline-block;
+}
+
+.flags_order_holder .flags_order_item {
+	cursor: move;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-family: inherit;
+	padding: 6px;
+	margin:2px 0;
+	color: #5e5e5e;
+	width:350px;
+	display: inline-block;
+	background-color: #ebebeb;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #f9f9f9, #ebebeb);
+	background-image: -ms-linear-gradient(top, #f9f9f9, #ebebeb);
+	background-image: -webkit-linear-gradient(top, #f9f9f9, #ebebeb);
+	background-image: -o-linear-gradient(top, #f9f9f9, #ebebeb);
+	background-image: linear-gradient(top, #f9f9f9, #ebebeb);
+}
+
+.flags_order_holder .flags_order_item:hover,
+.flags_order_holder .flags_order_item:focus,
+.flags_order_holder .flags_order_item:active {
+	background-color: #f9f9f9;
+	background-repeat: repeat-x;
+	background-image: -moz-linear-gradient(top, #ebebeb, #f9f9f9);
+	background-image: -ms-linear-gradient(top, #ebebeb, #f9f9f9);
+	background-image: -webkit-linear-gradient(top, #ebebeb, #f9f9f9);
+	background-image: -o-linear-gradient(top, #ebebeb, #f9f9f9);
+	background-image: linear-gradient(top, #ebebeb, #f9f9f9);
+}
+

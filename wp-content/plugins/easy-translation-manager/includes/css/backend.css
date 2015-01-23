@@ -1,0 +1,22 @@
+@font-face {
+	font-family: 'etm-font-icon';
+	  src: url('fonts/etm-font-icon.eot'); /* IE9 Compat Modes */
+	  src: url('fonts/etm-font-icon.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	       url('fonts/etm-font-icon.woff') format('woff'), /* Modern Browsers */
+	       url('fonts/etm-font-icon.ttf')  format('truetype'), /* Safari, Android, iOS */
+	       url('fonts/etm-font-icon.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+#adminmenu .menu-top.toplevel_page_etm-opt a .wp-menu-image:before {
+	font-family: 'etm-font-icon';
+	content: '\e3bc';
+}
+
+#adminmenu .menu-top.toplevel_page_etm-opt a .wp-menu-image img {
+	display: none
+
+}
+
+#adminmenu .menu-top.toplevel_page_etm-opt .wp-first-item {
+	display: none;
+}

@@ -137,6 +137,47 @@
 						</div><!-- /.section-body -->
 					</div><!-- /.section-row -->
 					
+					<!--  Start Appointment Daily limitation -->
+					<div class="section-row">
+						<div class="section-head">
+							<?php $section_title = __('Appointment daily limitation', 'booked'); ?>
+							<h3><?php echo esc_attr($section_title); ?></h2>
+							<p><?php _e('限制每天參加的次數。','booked'); ?></p>
+							<?php 
+								//每天參加的次數
+								$limit_daily_times_key = 'booked_appointment_limit_daily_times';
+								$limit_daily_times = get_option($limit_daily_times_key);
+
+							?>
+							<input name="booked_appointment_limit_daily_times" value="<?php echo esc_attr($limit_daily_times); ?>" type="text" class="field"/>
+						</div>
+					</div>
+					<!--  Start Appointment Daily limitation -->
+
+					<!--  Start Appointment Scope limitation -->
+					<div class="section-row">
+						<div class="section-head">
+							<?php $section_title = __('Appointment daily limitation', 'booked'); ?>
+							<h3><?php echo esc_attr($section_title); ?></h2>
+							<p><?php _e('限制每一段時間內的報名數。','booked'); ?></p>
+							<?php 
+								
+								//每段時間的次數
+								//時間段
+								$scope_limit_scope_key = 'booked_appointment_scope_limit';
+								$scope_limit_scope = get_option($scope_limit_scope_key);
+
+								//時間段內的次數
+								$scope_limit_times_key = 'booked_appointment_scope_limit_times';
+								$scope_limit_times = get_option($scope_limit_times_key);
+
+							?>
+							<input name="booked_appointment_scope_limit" value="<?php echo esc_attr($scope_limit_scope); ?>" type="text" class="field" style="display:inline-block;margin: 0; width: 50px;"/> 天內參加
+							<input name="booked_appointment_scope_limit_times" value="<?php echo esc_attr($scope_limit_times); ?>" type="text" class="field"  style="display:inline-block;margin: 0; width: 50px;"/> 次
+						</div>
+					</div>
+					<!--  Start Appointment Scope limitation -->
+
 					<div class="section-row">
 						<div class="section-head">
 							<?php $section_title = __('Appointment Buffer', 'booked'); ?>

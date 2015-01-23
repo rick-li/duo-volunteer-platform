@@ -49,6 +49,9 @@ function booked_appointments_shortcode($atts, $content = null) {
 		$appointments_array = booked_user_appointments($my_id,false,$time_format,$date_format);
 		$total_appts = count($appointments_array);
 		
+		// echo etm_tools_retrive_languages_data(etm_tools_retrive_aktiv_languages('',false),true);
+		echo 'selected lang is '.$_SESSION['etm_lang'];
+		$selectedLang = $_SESSION['etm_lang'];
 		echo '<div id="booked-profile-page" class="booked-shortcode"><div class="booked-profile-appt-list">';
 				
 			echo '<h4><i class="fa fa-calendar"></i>&nbsp;&nbsp;<span class="count">' . number_format($total_appts) . '</span> ' . _n('Upcoming Appointment',__('Upcoming Appointments', 'booked'),$total_appts,'booked') . '</h4>';
@@ -96,9 +99,15 @@ function booked_appointments_shortcode($atts, $content = null) {
 				endif;
 				
 				$status = ($appt['status'] == 'draft' ? __('pending','booked') : __('approved','booked'));
+				
+				$getval = get_option('ect_tran_terms_'.$selectedLang);
+				$localedCalendarName = $getval[$appt['calendar_id']]->name;	
+				if(!$localedCalendarName){
+					$localedCalendarName = $appt['calendar_name'];
+				}
 				echo '<span class="appt-block bookedClearFix '.$status.'" data-appt-id="'.$appt['post_id'].'">';
 					echo '<span class="status-block">'.($status == 'pending' ? '<i class="fa fa-circle-o"></i>' : '<i class="fa fa-check-circle"></i>').'&nbsp;&nbsp;'.$status.'</span>';
-					echo '<div>'.$appt['calendar_name'].'</div>';
+					echo '<div>'.$localedCalendarName.'</div>';
 					echo '<strong>'.$day_name.$date_display.'</strong><br>'.__('from','booked').' '.$time_start.' '.__('to','booked').' '.$time_end;
 					echo '<div class="booked-cal-buttons">';
 						echo '<a href="https://www.google.com/calendar/render?action=TEMPLATE&text='.urlencode(sprintf(__('Appointment with %s','booked'),get_bloginfo('name'))).'&dates='.$google_date_startend.'T'.$google_time_start.'00/'.$google_date_startend.'T'.$google_time_end.'00&details=&location=&sf=true&output=xml"target="_blank" rel="nofollow" class="google-cal-button"><i class="fa fa-plus"></i>&nbsp;&nbsp;'.__('Google Calendar','booked').'</a>';

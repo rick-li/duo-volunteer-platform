@@ -122,7 +122,11 @@ if(!class_exists('booked_plugin')) {
 				'booked_admin_appointment_email_content',
 				'booked_admin_appointment_email_subject',
 				'booked_admin_cancellation_email_content',
-				'booked_admin_cancellation_email_subject'
+				'booked_admin_cancellation_email_subject',
+
+				'booked_appointment_limit_daily_times',
+				'booked_appointment_scope_limit',
+				'booked_appointment_scope_limit_times'
 			);
 
 			return $plugin_options;

@@ -676,6 +676,9 @@ function booked_user_appointments($user_id,$only_count = false,$time_format = fa
 				$appointments_array[$post->ID]['timeslot'] = $appt_timeslot;
 				$appointments_array[$post->ID]['status'] = $post->post_status;
 				$appointments_array[$post->ID]['calendar_name'] = $post_terms[0]->name;
+				$appointments_array[$post->ID]['calendar_id'] = $post_terms[0]->term_id;
+				$appointments_array[$post->ID]['taxonomy'] = $post_terms[0]->taxonomy;
+				// echo 'term_group: '.$post_terms[0]->taxonomy;
 			}
 			
 		endwhile;

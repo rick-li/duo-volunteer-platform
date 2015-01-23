@@ -1,0 +1,139 @@
+#etm_comments {
+	height: 90px;
+    overflow: auto;
+}
+
+.etm-image-align-label {
+display: inline;
+font-weight: bold;
+margin: 0 1em 0 3px;
+padding: 0 0 0 23px;
+}
+
+.etm-image-align-none-label{
+background: url("../images/align-none.png") no-repeat scroll left center transparent;
+}
+
+.etm-image-align-left-label{
+background: url("../images/align-left.png") no-repeat scroll left center transparent;
+}
+
+.etm-image-align-center-label{
+background: url("../images/align-center.png") no-repeat scroll left center transparent;
+}
+
+
+.etm-image-align-right-label{
+background: url("../images/align-right.png") no-repeat scroll left center transparent;
+}
+
+#preview_gallery_etm div {
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 400px;
+	width: 330px;
+}
+
+#preview_gallery_etm {
+	overflow:hidden;
+	width:330px;
+	height:400px
+}  
+
+.etm-dialog-cont {
+	position:absolute;
+	height: 100%;
+    width: 100%;
+    z-index: 10000;
+	left:0;
+	top:0;
+	display:none;
+}
+.etm-dialog {
+	width:800px;
+	min-height:350px;
+	height:350px;
+	margin:0 auto 10px;
+	
+	position: relative;
+	display:block;
+	background: #ffffff;
+	z-index: 10002;
+	color:#000000;
+	
+	text-align:left;
+	top:45px;
+	left:10px;
+	border: 1px solid #555;
+	-moz-box-shadow: rgba(0,0,0,1) 0 4px 30px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 4px 30px;
+	-khtml-box-shadow: rgba(0,0,0,1) 0 4px 30px;
+	box-shadow: rgba(0,0,0,1) 0 4px 30px;
+	
+	font: 12px "Lucida Grande",Verdana,Arial,sans-serif;
+	z-index: 99999;
+}
+.etm-mce-input {
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+
+.etm-mce-label{
+	font-weight: bold;
+}
+
+.etm-mce-buttons {
+    float: left;
+    position: absolute;
+    top: 270px;
+}
+
+.etm-dialog-head {
+	background-color: #222222;
+    color: #CFCFCF;
+	height:27px;
+	position:relative;
+}
+.etm-dialog-head-text {
+	float:left;
+	padding:6px 10px 0;
+}
+.etm-close-icon {
+	float: right;
+    padding: 6px 10px 0;
+    text-align: right;
+}
+.etm-dialog-body {
+	float:left;
+    line-height: 1.4em;
+    width:400px;
+    margin: 10px 15px 15px;
+    text-align: left;
+	position:relative;
+}
+.etm-dialog-overlay {
+   height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+   background-color: #000000;
+
+	background-color:#000;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+	filter:alpha(opacity=75);
+	-moz-opacity: 0.75;
+	opacity: 0.75;   
+}
+
+/* CSSEditor */
+#etm-mce-fields-cont {
+	display:none;
+}
+
+.loading-fields {
+	min-width:48px;
+	min-height:48px;
+	background: url('images/spinner_48x48.gif') no-repeat top center;
+}
