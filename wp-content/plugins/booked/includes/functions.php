@@ -672,6 +672,7 @@ function booked_user_appointments($user_id,$only_count = false,$time_format = fa
 				
 				// echo($post->ID.' terms is '.$post_terms[0]->name); 
 				$appointments_array[$post->ID]['post_id'] = $post->ID;
+				$appointments_array[$post->ID]['date'] = $appt_date_value;
 				$appointments_array[$post->ID]['timestamp'] = $appt_timestamp;
 				$appointments_array[$post->ID]['timeslot'] = $appt_timeslot;
 				$appointments_array[$post->ID]['status'] = $post->post_status;

@@ -1222,7 +1222,7 @@ class easy_translation_manager_plugin {
 		
 		$pageURL .= "://";
 		$server_name = $_SERVER["SERVER_NAME"];
-    error_log('==addr '.$_SERVER["SERVER_ADDR"]);
+    // error_log('==addr '.$_SERVER["SERVER_ADDR"]);
     if($server_name == 'localhost' && isset($_SERVER["SERVER_ADDR"]) && $_SERVER["SERVER_ADDR"] != null && $_SERVER["SERVER_ADDR"] != '::1'){
       $server_name = $_SERVER["SERVER_ADDR"];
     }

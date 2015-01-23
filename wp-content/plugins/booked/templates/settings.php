@@ -140,22 +140,22 @@
 					<!--  Start Appointment Daily limitation -->
 					<div class="section-row">
 						<div class="section-head">
-							<?php $section_title = __('Appointment daily limitation', 'booked'); ?>
+							<?php $section_title = __('Appointment daily limit', 'booked'); ?>
 							<h3><?php echo esc_attr($section_title); ?></h2>
 							<p><?php _e('限制每天參加的次數。','booked'); ?></p>
 							<?php 
 								//每天參加的次數
-								$limit_daily_times_key = 'booked_appointment_limit_daily_times';
-								$limit_daily_times = get_option($limit_daily_times_key);
+								$daily_limit_key = 'booked_appointment_daily_limit';
+								$daily_limit = get_option($daily_limit_key);
 
 							?>
-							<input name="booked_appointment_limit_daily_times" value="<?php echo esc_attr($limit_daily_times); ?>" type="text" class="field"/>
+							<input name="booked_appointment_daily_limit" value="<?php echo esc_attr($daily_limit); ?>" type="text" class="field"/>
 						</div>
 					</div>
 					<!--  Start Appointment Daily limitation -->
 
 					<!--  Start Appointment Scope limitation -->
-					<div class="section-row">
+					<?php /*-- <div class="section-row">
 						<div class="section-head">
 							<?php $section_title = __('Appointment daily limitation', 'booked'); ?>
 							<h3><?php echo esc_attr($section_title); ?></h2>
@@ -176,6 +176,9 @@
 							<input name="booked_appointment_scope_limit_times" value="<?php echo esc_attr($scope_limit_times); ?>" type="text" class="field"  style="display:inline-block;margin: 0; width: 50px;"/> 次
 						</div>
 					</div>
+
+					*/
+					?>
 					<!--  Start Appointment Scope limitation -->
 
 					<div class="section-row">

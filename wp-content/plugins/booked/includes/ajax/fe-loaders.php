@@ -73,13 +73,35 @@ function bp_fe_ajax_loaders() {
 			<input type="hidden" name="customer_type" value="<?php if (is_user_logged_in()): echo 'current'; else : echo 'new'; endif; ?>" />			
 
 			<?php $reached_limit = false;
-				
+			
+			$reached_daily_limit = false;
 			if (is_user_logged_in()):
 				
 				global $current_user;
 				get_currentuserinfo();
 				
 				$appointment_limit = get_option('booked_appointment_limit');
+				$appointment_daily_limit = get_option('booked_appointment_daily_limit');
+				$user_appointments = booked_user_appointments($current_user->ID, false);
+				$upcoming_user_appointments = count($user_appointments);
+				// error_log('current date: '.$date);
+				$already_appointed = 0;
+				foreach ($user_appointments as $appt) {
+					if($date == $appt['date']){
+						$already_appointed ++;
+					}
+				}
+
+				// error_log('User already appointed: '. $already_appointed. ' total: '.$upcoming_user_appointments);
+
+				if($appointment_daily_limit):
+					if ($already_appointed >= $appointment_daily_limit):
+						$reached_daily_limit = true;
+					else :
+						$reached_daily_limit = false;
+					endif;
+				endif;
+
 				if ($appointment_limit):
 					$upcoming_user_appointments = booked_user_appointments($current_user->ID,true);
 					if ($upcoming_user_appointments >= $appointment_limit):
@@ -89,17 +111,21 @@ function bp_fe_ajax_loaders() {
 					endif;
 				endif;
 				
-				if (!$reached_limit):
+
+
+				if (!$reached_limit && !$reached_daily_limit):
 				
 					?><p><?php echo sprintf( __( 'You are about to request an appointment for %s.','booked' ), get_user_meta( $current_user->ID, 'nickname', true )); ?> <?php _e('Please confirm that you would like to request the following appointment:','booked'); ?></p>
 					<?php echo $appt_date_time; ?>
 				
 					<input type="hidden" name="user_id" value="<?php echo $current_user->ID; ?>" />
 				
-				<?php else : ?>
-				
+				<?php elseif ($reached_limit) : ?>
+
 					<p><?php echo sprintf(_n("Sorry, but you've hit the appointment limit. Each user may only book %d appointment at a time.","Sorry, but you've hit the appointment limit. Each user may only book %d appointments at a time.", $appointment_limit, "booked" ), $appointment_limit); ?></p>
-				
+
+				<?php elseif ($reached_daily_limit) : ?>
+					<p><?php echo sprintf(_n("Sorry, but you've hit the appointment limit. Each user may only book %d appointment at a day.","Sorry, but you've hit the appointment limit. Each user may only book %d appointments at a day.", $appointment_daily_limit, "booked" ), $appointment_daily_limit); ?></p>					
 				<?php endif; ?>
 				
 			<?php else : ?>
@@ -124,7 +150,7 @@ function bp_fe_ajax_loaders() {
 			<?php booked_custom_fields(); ?>
 			
 			<div class="field">
-				<?php if (!$reached_limit): ?>
+				<?php if (!$reached_limit && !$reached_daily_limit): ?>
 					<input type="submit" class="button button-primary" value="<?php _e('Request Appointment','booked'); ?>">
 					<button class="cancel button"><?php _e('Cancel','booked'); ?></button>
 				<?php else: ?>

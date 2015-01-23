@@ -372,16 +372,14 @@ function adjust_calendar_boxes(){
 
 
 
-		console.log('=====dfahdfkahfkasdhdkfdas')
 		// Calendar Switcher
 		var $ = jQuery;
 
 
 		$(document).ready(function() {
-				console.log('=====dfahdfkahfkasdhdkfdas', $('#booked-calendarSwitcher'))
 		$('#booked-calendarSwitcher').on('change','select[name="bookedCalendarDisplayed"]',function(e){
 			// debugger;
-			console.log('Calendar siwtcher click====');
+			// console.log('Calendar siwtcher click====');
 			var calendar_id = $(this).val(),
 				booked_ajaxURL = $('#data-ajax-url').html(),
 				currentMonth = $('table.booked-calendar').attr('data-monthShown');
