@@ -46,6 +46,6 @@
     }
     echo "</ul>";
 
-    echo '<p>'.wpfp_clear_list_link().'</p>';
+    //echo '<p>'.wpfp_clear_list_link().'</p>';
     echo "</div>";
     wpfp_cookie_warning();
