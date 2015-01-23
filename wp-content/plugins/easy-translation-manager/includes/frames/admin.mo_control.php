@@ -100,7 +100,7 @@ if(!empty($_REQUEST['status']) && $_REQUEST['status']=='update'){
     $sqldatalang = etm_languages_flags($_REQUEST['tmp_lang']);
     
     
-    $langed_string = '<img style="padding-left: 10px; float: left;" src="'.etm_tools_create_icons_url($sqldatalang['icon'],2).'" ><div style="float: left; padding-left: 10px; padding-top: 3px;"> Translate to '.$sqldatalang['org_name'] . ' ('. $sqldatalang['english_name'] . ')</div>';
+    $langed_string = '<img width="70px" style="padding-left: 10px; float: left;" src="'.etm_tools_create_icons_url($sqldatalang['icon'],2).'" ><div style="float: left; padding-left: 10px; padding-top: 3px;"> Translate to '.$sqldatalang['org_name'] . ' ('. $sqldatalang['english_name'] . ')</div>';
 
     $sql = "SELECT id,translatede_string,translatede_string2 FROM  {$wpdb->prefix}etm_plugin_string WHERE lang_code = '".$_REQUEST['tmp_lang']."' and lang_index_id ='".$_REQUEST['tmp_id']."'";
     $sqldata = $wpdb->get_results($sql);
