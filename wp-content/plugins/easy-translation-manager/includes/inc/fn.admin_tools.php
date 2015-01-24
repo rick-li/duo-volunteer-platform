@@ -696,7 +696,7 @@ function etm_tools_get_meta(){
 
 // controles the first selection
 function etm_tools_get_posts_types(){
-    echo '=== etm_tools_get_posts_types ===';
+    // echo '=== etm_tools_get_posts_types ===';
     global $etm_tag,$wpdb,$easy_translation_manager_plugin,$total_found;
 
     $tmp_data_array = array();
