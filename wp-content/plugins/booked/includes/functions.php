@@ -303,7 +303,7 @@ function booked_fe_calendar_date_content($date,$calendar_id = false){
 				/*
 				Calculate the number of spots available based on total minus the appointments booked
 				*/
-				
+				// $spots_available = true; 
 				$spots_available = $count - count($appts_in_this_timeslot);
 				$spots_available = ($spots_available < 0 ? $spots_available = 0 : $spots_available = $spots_available);
 				
@@ -311,7 +311,8 @@ function booked_fe_calendar_date_content($date,$calendar_id = false){
 				Display the timeslot
 				*/
 				
-				if ($spots_available):
+				//always display time slot, event spots not available
+				// if ($spots_available):
 				
 					$temp_count++;
 				
@@ -361,7 +362,7 @@ function booked_fe_calendar_date_content($date,$calendar_id = false){
 						echo '<span class="timeslot-people"><button'.(!$available ? ' disabled' : '').' data-timeslot="'.$timeslot.'" data-date="'.$date.'" class="new-appt button"'.(!$spots_available ? ' disabled' : '').'><span class="button-timeslot">'.date_i18n($time_format,strtotime($timeslot_parts[0])).' &ndash; '.date_i18n($time_format,strtotime($timeslot_parts[1])).'</span><span class="button-text">'.__('Book Appointment','booked').'</span></button></span>';
 					echo '</div>';
 					
-				endif;
+				// endif;
 				
 			endforeach;
 			
