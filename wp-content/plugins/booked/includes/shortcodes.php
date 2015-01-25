@@ -50,7 +50,7 @@ function booked_appointments_shortcode($atts, $content = null) {
 		$total_appts = count($appointments_array);
 		
 		// echo etm_tools_retrive_languages_data(etm_tools_retrive_aktiv_languages('',false),true);
-		echo 'selected lang is '.$_SESSION['etm_lang'];
+		// echo 'selected lang is '.$_SESSION['etm_lang'];
 		$selectedLang = $_SESSION['etm_lang'];
 		echo '<div id="booked-profile-page" class="booked-shortcode"><div class="booked-profile-appt-list">';
 				
