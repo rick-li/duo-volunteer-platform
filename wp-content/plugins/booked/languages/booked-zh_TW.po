@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Booked\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-31 16:29-0500\n"
-"PO-Revision-Date: 2015-01-21 17:21-0500\n"
+"PO-Revision-Date: 2015-01-27 09:18-0500\n"
 "Last-Translator: Justin Scheetz <justin@boxystudio.com>\n"
 "Language-Team: Boxy Studio <justin@boxystudio.com>\n"
 "Language: en_US\n"
@@ -67,11 +67,11 @@ msgstr ""
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:53
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/templates/profile.php:94
 msgid "Upcoming Appointment"
-msgstr "您預定的時間"
+msgstr "次預定時間"
 
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/includes/shortcodes.php:54
 msgid "Upcoming Appointments"
-msgstr "您預定的時間"
+msgstr "次預定時間"
 
 #: /Users/justinscheetz/Dropbox/_Development/plugins/booked/wp-content/plugins/booked/booked.php:275
 msgid "and"
