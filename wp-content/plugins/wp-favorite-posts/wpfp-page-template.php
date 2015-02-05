@@ -1,4 +1,6 @@
 <?php
+    $selectedLang = $_SESSION['etm_lang'];
+    $getval = get_option('ect_tran_terms_'.$selectedLang);
     $wpfp_before = "";
     echo "<div class='wpfp-span'>";
     if (!empty($user)) {
@@ -25,7 +27,12 @@
         query_posts($qry);
 
         while ( have_posts() ) : the_post();
-            echo "<li><a href='".get_permalink()."' title='". get_the_title() ."'>" . get_the_title() . "</a> ";
+$localedPostName = $getval[get_the_ID()];
+if($localedPostName==null){
+  $localedPostName = get_the_title();
+}
+//echo "<li>".$localedPostName."</li>";
+            echo "<li><a href='".get_permalink()."' title='". $localedPostName ."'>" . $localedPostName . "</a> ";
             wpfp_remove_favorite_link(get_the_ID());
             echo "</li>";
         endwhile;
